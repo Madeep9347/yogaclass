@@ -1,6 +1,9 @@
 a=10
-if (a%2==0):
-  print("even number")
+b=20
+c=30
+if (a>b & b>c):
+  print("a is bigger")
+elif(b>c & c>a):
+  print("b is bigger")
 else:
-  print("odd number")
-
+  print("c is bigger")
